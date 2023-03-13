@@ -53,7 +53,7 @@ antialias: true;
 
 	var loader = new GLTFLoader();
 
-	loader.load( 'mecq.glb', function ( gltf ) {
+	loader.load( '/mecq.glb', function ( gltf ) {
 
 scene.add( gltf.scene );
 
